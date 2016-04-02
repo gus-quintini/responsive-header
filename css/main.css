@@ -57,16 +57,49 @@ h1 {
     float: left;
     width: 50%;
   }
+
+  html {
+    font-size: 110%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  li {
+    width: 25%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1 {
+    float: left;
+  }
+
+  li {
+    text-align: center;
+    padding: 1.5rem 0 1.5rem 0;
+  }
+
+  nav {
+    float: right;
+    width: 600px;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
+
+  
 
 }
