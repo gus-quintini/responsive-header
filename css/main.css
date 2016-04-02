@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/1.3 "Ubuntu", sans-serif;
+  font: normal 100%/1.3 Ubuntu, sans-serif;
 }
 
 *, *::before, *::after {
@@ -23,6 +23,7 @@ body {
 
 header {
   background-color: #18294f;
+  color: #fff;
 }
 
 ul {
@@ -47,6 +48,31 @@ h1 {
   padding-top: 0.3em;
 }
 
+nav ul {
+  margin: 0;
+  font-size: 1.125rem;
+  padding: 0;
+}
+
+nav a {
+  color: #6c8f30;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #6c8fe0;
+}
+
+header h1 {
+  font-size: 2rem;
+  padding: .5em;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
 @media only screen and (min-width: 25em) {
 
   header {
@@ -67,7 +93,7 @@ h1 {
 
   html {
     font-size: 120%;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   li {
@@ -100,6 +126,12 @@ h1 {
 
 @media only screen and (min-width: 90em) {
 
-  
+  html {
+    font-size: 130%;
+  }
+
+  nav {
+    width: 600px;
+  }
 
 }
